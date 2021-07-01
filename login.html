@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="arquivo.css" title="Estilos Principais">
+  <link rel="shortcut icon" type="image/x-icon" href="Images/blue_leaf_icon.png">
+  <link rel="icon" type="image/x-icon" href="Images/blue_leaf_icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <title>Health Track</title>
+
+</head>
+<body>
+
+  <div class="container-fluid">
+  
+  <div class="center-screen">
+  <b> <p id="Titulo">Health Track</p> </b>
+  </div>
+
+  <div class="center-screen">
+
+  <img src="Images/blue_leaf_icon.png" width="250px" height="239px" alt="HealthTrackIcon"><br>
+  
+  </div>
+  <form id="PaginaLogin" method="POST" action="home.html" class="form-horizontal">
+    
+    <div class="col-6 offset-3">
+    <input type="email" class="form-control"
+                          placeholder="Digite seu email..." required><br>
+    </div>
+    
+    <div class="col-6 offset-3">                      
+    <input type="password" class="form-control"
+                          placeholder="Digite sua senha..." required>
+    </div>
+
+    <div class="col-6 offset-3" id="EsqueciBox">
+    <a id="esqueci" href="esqueci.html">Esqueci minha senha...</a>
+    </div>
+
+    <div class="center-screen">
+      <button id="BotaoEntrar" class="btn btn-primary" type="submit">Entrar</button>
+    </div>
+    
+    <div class="col-6 offset-3" id="logos">
+    <a id="facebook"><img src="Images/FacebookIcon.png" width="47px" height="42px" alt="FacebookIcon"></a>
+    <a id="google"><img src="Images/GoogleIcon.png" width="50.71px" height="48px" alt="GoogleIcon"></a>
+    </div>
+
+    <div class="center-screen"><a id="cadastro" href="cadastro.html">É novo por aqui?<br> Crie seu cadastro</a></div>
+  
+  </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+</body>
+</html>

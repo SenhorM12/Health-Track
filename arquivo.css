@@ -1,0 +1,137 @@
+*{ font-family: 'Segoe UI'}
+
+#Titulo{color: #199FE0; 
+    font-size: xx-large; 
+    font-weight: bold;}
+
+.center-screen {
+     display: flex;
+     flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;;
+      }
+
+form>input{color: #8c8c8c; 
+    background-color: #f1f1f1; 
+    width: 900px; 
+    height: 30.3px; 
+    font-size: 18px;}
+
+#BotaoEntrar{color: white; 
+    background-color: #2F80ED; 
+    width: 172px;
+    font-size: 20px;
+    }
+
+#esqueci{color: #8c8c8c;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: right;}
+
+#EsqueciBox{text-align: right;}    
+
+#cadastro{color: #199FE0;
+    position: relative;
+    top: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)}
+
+#logos{text-align: center;}
+
+#recuperado{color: #199FE0; 
+    font-size: large; 
+    font-weight: bold}
+
+#GuiaHome{background-color: #199FE0;
+height: 64px;}
+
+#Guia{background-color: #199FE0;}
+
+#Menu{position: relative;
+width: 50px;
+height: 50px;
+top: 5px;}
+
+#Icon{width: 40px;
+height: 40px;}
+
+#box{border-style: solid;
+border-color: #199FE0;
+background-color: rgba(25, 159, 224, 0.24);
+padding: 10px;
+text-align: justify;}
+
+label{font-size: 20px;
+font-weight: bold;}
+
+#medidas{border-style: solid;
+border-color: #199FE0;
+background-color: rgba(25, 159, 224, 0.24);
+text-align: center;}
+
+#box2{border-style: solid;
+    border-color: #199FE0;
+    background-color: rgba(25, 159, 224, 0.24);
+    padding: 10px;
+    text-align: justify;
+    border-right: none;
+    height: 145px;}
+    
+#box3{border-style: solid;
+    border-color: #199FE0;
+    background-color: rgba(25, 159, 224, 0.24);
+    padding: 10px;
+    text-align: justify;
+    border-left: none;
+    height: 145px;}
+
+#box4{border-style: solid;
+    border-color: #199FE0;
+    background-color: rgba(25, 159, 224, 0.24);
+    padding: 10px;
+    text-align: justify;
+    border-left: none;
+    border-right: none;
+    height: 145px;}
+
+#elipse{width: 200px;
+height: 111px;}
+
+#sub{text-align: center;
+    font-weight: bold;}
+
+#sub2{text-align: center;
+    position: relative;
+    top: -85px;
+    font-weight: bold;}
+
+#medidas2{border-style: solid;
+    border-color: #199FE0;
+    background-color: rgba(25, 159, 224, 0.24);
+    text-align: center;
+    position: relative;
+    top: -90px;}
+
+#kcal{text-align: center;
+font-weight: bold;}
+
+#kcal2{text-align: center;
+    position: relative;
+    top: -90px;
+    font-weight: bold;}
+
+#box5{width: 538px;
+    height: 40px;
+    background-color: rgba(229, 229, 229, 1);
+    padding: 10px;
+    text-align: justify;}
+
+#box6{width: 538px;
+    height: 40px;
+    background-color: rgba(25, 159, 224, 0.24);
+    padding: 10px;
+    text-align: center;}
+    
+#maps{width: 540px;}
+
+#passos{width: 500px;
+    height: 200px;}
